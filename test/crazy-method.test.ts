@@ -2,9 +2,5 @@ import { crazy } from "../src/crazy-method";
 
 test("Test crazy", () => {
 //probar
-expect(crazy(2,2)).toBe(2);
+expect(crazy(0,1)).toBe(4);
 });
-test("Test crazy", () => {
-    //probar
-    expect(crazy(2,1)).toBe(3);
-    });
